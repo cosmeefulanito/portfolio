@@ -2,7 +2,7 @@ import React from 'react'
 
 const Banner = () => {
     return (
-        <section id='home' className="bg-summary">
+        <section id='home' className="bg-banner">
             <div className='container mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 text-white py-20 px-4'>
                 <div className=''>
                     <p className='font-bold text-6xl'>Hola!<span>🖥</span></p>

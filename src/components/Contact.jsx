@@ -10,7 +10,7 @@ import controller from './../assets/img/play-game-svgrepo-com.svg'
 const Contact = () => {
     const { resultado, cargando } = useForm()
     return (
-        <section id='contact' className='bg-slate-800'>
+        <section id='contact' className='bg-summary'>
             <div className=' container mx-auto border-blue-900 py-20'>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center md:justify-items-center lg:justify-items-start items-center gap-10'>
                     <h1 className='font-bold text-6xl text-white border-b-teal-700 border-b-8 rounded-bl-2xl w-fit mb-5'>Contáctame</h1>

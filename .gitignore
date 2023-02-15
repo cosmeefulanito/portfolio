@@ -1,6 +1,9 @@
 #backend
 api
 
+#build
+dist
+
 # Logs
 logs
 *.log

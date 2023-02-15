@@ -4,7 +4,7 @@ import bgWavey from './../assets/img/wavey-fingerprint.svg'
 
 const Summary = () => {
     return (
-        <section id='summary' className="bg-[url('./src/assets/img/wavey-fingerprint.svg')]">
+        <section id='summary' className="bg-summary">
             <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 px-4 py-20 text-white items-center'>
                 <div className='summary-txt'>
                     <h1 className='text-6xl font-bold mb-10 border-b-teal-700 border-b-8 rounded-bl-2xl w-fit'>Summary</h1>
