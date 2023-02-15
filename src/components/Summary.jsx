@@ -16,7 +16,7 @@ const Summary = () => {
                         mejorar los procesos de las compañias y generar un impacto positivo.
                     </p>
                     <button className='text-2xl font-medium bg-neutral-500 hover:bg-orange-900 rounded-lg px-5 py-2 w-fit sm:w-full md:w-full lg:w-auto mt-5'>
-                        <a href="/src/Andres_Astorga_BE.pdf" target="_blank">Descargar CV 📁</a>
+                        <a href="./src/Andres_Astorga_BE.pdf" target="_blank">Descargar CV 📁</a>
                     </button>
                 </div>
                 <div className='summary-img flex justify-center py-10'>
