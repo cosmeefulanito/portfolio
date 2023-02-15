@@ -9,9 +9,9 @@ module.exports = {
       backgroundImage: {
         banner: "url('/src/assets/img/Meteor.svg')",
         summary: "url('/src/assets/img/wavey-fingerprint.svg')",
-        cocktail: "url('/src/assets/img/portfolio/cocktail.png')",
-        orders:   "url('/src/assets/img/portfolio/front-orders.png')",
-        appointment:  "url('/src/assets/img/portfolio/appointment.png')",
+        cocktail: "url('/src/assets/img/portfolio/cocktail.PNG')",
+        orders:   "url('/src/assets/img/portfolio/front-orders.PNG')",
+        appointment:  "url('/src/assets/img/portfolio/appointment.PNG')",
       },
     },
   },
