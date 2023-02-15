@@ -33,7 +33,6 @@ const Portfolio = () => {
                                 <a href="https://github.com/cosmeefulanito/orders-app" target="_blank">Code view</a>
                             </button>
                         </div>
-
                     </div>
                     <div className="card-zoom">
                         <div className="card-zoom-image bg-appointment"></div>
@@ -46,7 +45,6 @@ const Portfolio = () => {
                                 <a href="https://github.com/cosmeefulanito/Vet-Appointment-system" target="_blank">Code view</a>
                             </button>
                         </div>
-
                     </div>
 
 

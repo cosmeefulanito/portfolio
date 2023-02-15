@@ -1,4 +1,5 @@
 import React from 'react'
+import coffeImg from './../assets/img/pngwing.com.png'
 
 const Banner = () => {
     return (
@@ -9,7 +10,7 @@ const Banner = () => {
                     <p className=' text-lg font-bold'>Soy Andrés Astorga y este es mi portafolio personal, sin pretensiones.</p>
                 </div>
                 <div className='flex justify-end'>
-                    <img src="./src/assets/img/pngwing.com.png" alt="bg-summary" width={250} />
+                    <img src={coffeImg} alt="bg-summary" width={250} />
                 </div>
             </div>
         </section>
