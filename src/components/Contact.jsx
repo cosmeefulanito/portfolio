@@ -2,6 +2,9 @@
 import FormularioContacto from './FormularioContacto'
 import Loader from "./Loader";
 import useForm from "../hooks/useForm";
+import githubImg from './../assets/img/github-icon-svgrepo-com.svg'
+import wtspImg from './../assets/img/whatsapp.svg'
+import linkedingImg from './../assets/img/linkedin.svg'
 import controller from './../assets/img/play-game-svgrepo-com.svg'
 
 const Contact = () => {
@@ -21,17 +24,17 @@ const Contact = () => {
                         <div className=''>
                             <button className='hover:bg-violet-300 rounded-full p-3 transition-colors ease-in'>
                                 <a href="https://github.com/cosmeefulanito" target="_blank">
-                                    <img src="./src/assets/img/github-icon-svgrepo-com.svg" alt="" width={50} />
+                                    <img src={githubImg} alt="Git-icon" width={50} />
                                 </a>
                             </button>
                             <button className='hover:bg-violet-300 rounded-full p-3 transition-colors ease-in'>
-                                <a href="#" target="_blank">
-                                    <img src="./src/assets/img/whatsapp.svg" alt="" width={50} />
+                                <a href="https://wa.link/r33afm" target="_blank">
+                                    <img src={wtspImg} alt="WhatsApp-icon" width={50} />
                                 </a>
                             </button>
                             <button className='hover:bg-violet-200 rounded-full p-3 transition-colors ease-in'>
                                 <a href="https://www.linkedin.com/in/aaastorga/" target="_blank">
-                                    <img src="./src/assets/img/linkedin.svg" alt="" width={50} />
+                                    <img src={linkedingImg} alt="Linkedin-icon" width={50} />
                                 </a>
                             </button>
                         </div>

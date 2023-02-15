@@ -1,5 +1,6 @@
 import React from 'react'
 import Loader from './Loader'
+import bgWavey from './../assets/img/wavey-fingerprint.svg'
 
 const Summary = () => {
     return (

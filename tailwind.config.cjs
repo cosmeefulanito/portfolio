@@ -7,12 +7,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        beetle:
-          "url('./src/assets/img/portfolio/cocktail.png')",
-        fiat:
-          "url('./src/assets/img/portfolio/front-orders.png')",
-        mini:
-          "url('./src/assets/img/portfolio/appointment.png')",
+        summary: "url('/src/assets/img/scattered-forcefields.svg')",
+        cocktail: "url('/src/assets/img/portfolio/cocktail.png')",
+        orders:   "url('/src/assets/img/portfolio/front-orders.png')",
+        appointment:  "url('/src/assets/img/portfolio/appointment.png')",
       },
     },
   },
