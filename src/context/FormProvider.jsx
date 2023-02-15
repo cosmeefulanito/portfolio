@@ -27,17 +27,17 @@ const FormProvider = ({children}) => {
     }
 
 
-    useEffect(() => {
-        console.log("cargando: ", cargando)
-    }, [cargando])
+    // useEffect(() => {
+    //     console.log("cargando: ", cargando)
+    // }, [cargando])
 
     const enviarFormulario = async () => {
         try {
             setCargando(true)
             const url = 'http://localhost:5000/api/contact'
             const response = await axios.post(url, campos)
-            console.log("*** ", response)
-            console.log(response.data)
+            // console.log("*** ", response)
+            // console.log(response.data)
             if (response.status === 200) {
                 setError('')
                 setResultado(response.status)                
@@ -49,7 +49,7 @@ const FormProvider = ({children}) => {
                 throw new Error("An error has occurred");
             }
         } catch (error) {
-            setError("An error has occurred");
+            setError("Ha ocurrido un error!");
             setCargando(false);
         }
     };

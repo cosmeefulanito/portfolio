@@ -1,6 +1,4 @@
-
 import FormularioContacto from './FormularioContacto'
-import Loader from "./Loader";
 import useForm from "../hooks/useForm";
 import githubImg from './../assets/img/github-icon-svgrepo-com.svg'
 import wtspImg from './../assets/img/whatsapp.svg'
