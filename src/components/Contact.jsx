@@ -39,10 +39,10 @@ const Contact = () => {
                     </div>
 
                     {/* Formulario de contacto */}
-                    {resultado ? (
+                    {resultado == 200 & !cargando ? (
                         <div className='px-5 text-justify flex flex-col justify-center items-center'>
-                            <p className='text-white font-semibold text-xl'>Gracias por escribirme! Pronto me contactaré contigo, que tengas un buen dia. Saludos.</p>
-                            <img src={controller} alt="controller image" width={80} />
+                            <p className='text-white font-bold text-xl'>Gracias por escribirme! Pronto me pondré en contacto.</p>
+                            <img src={controller} alt="controller image" width={150} />
                         </div>
                     ) : <FormularioContacto />}
 

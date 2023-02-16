@@ -3,11 +3,11 @@ import Error from "./Error";
 import useForm from "../hooks/useForm";
 import Loader from "./Loader";
 const FormularioContacto = () => {
-    const { handleInput, error, handleSubmit,cargando } = useForm()
+    const { handleInput, error, handleSubmit, cargando } = useForm()
     const { nombre, correo, mensaje } = handleInput
     return (
-        <>        
-            {cargando ? <Loader /> : (
+        <>
+            {cargando ? (<div className="flex justify-center"><Loader /></div>) : (
                 <div className="p-6 rounded-lg shadow-2xl">
                     {error.length > 0 ? <Error>{error}</Error> : ''}
                     <form onSubmit={handleSubmit}>

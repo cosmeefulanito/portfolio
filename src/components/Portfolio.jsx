@@ -4,7 +4,7 @@ const Portfolio = () => {
     return (
         <section id='portfolio' className='bg-[#131313]'>
             <div className='container mx-auto text-white grid grid-cols-1 md:grid-cols-1 py-20  px-4'>
-                <h1 className='font-bold text-6xl border-b-teal-700 border-b-8 rounded-bl-2xl w-fit'>Portfolio <span>💿</span></h1>
+                <h1 className='font-bold text-6xl border-b-teal-700 border-b-8 rounded-bl-2xl w-fit'>Portafolio <span>💿</span></h1>
                 <p className='text-4xl font-light'>En esta seccion podrás ver algunos de los proyectos que he realizado...</p>
             </div>
             <div className='container mx-auto text-white py-20  px-4'>

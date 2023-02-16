@@ -1,15 +1,17 @@
-import './../App.css'
+import { Comment } from 'react-loader-spinner';
 const Loader = () => {
     return (
         <>
-            <div class="pacman-holder moving">
-                <div class="pacman-container">
-                    <div class="pacman-body"></div>
-                    <div class="pacman-mouth"><div class="pacman"></div></div>
-                </div>
-
-                <div class="dot"></div>
-            </div>
+            <Comment
+                visible={true}
+                height="150"
+                width="150"
+                ariaLabel="comment-loading"
+                wrapperStyle={{}}
+                wrapperClass="comment-wrapper"
+                color="#fff"
+                backgroundColor="#FF4400"
+            />
         </>
     )
 }

@@ -6,7 +6,7 @@ const Summary = () => {
         <section id='summary' className="bg-summary">
             <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 px-4 py-20 text-white items-center'>
                 <div className='summary-txt'>
-                    <h1 className='text-6xl font-bold mb-10 border-b-teal-700 border-b-8 rounded-bl-2xl w-fit'>Summary</h1>
+                    <h1 className='text-6xl font-bold mb-10 border-b-teal-700 border-b-8 rounded-bl-2xl w-fit'>Resumen</h1>
                     <p className='text-justify'>
                         Soy Ingeniero Informático y tengo 5 años de experiencia laboral dedicado al desarrollo web fullstack; aunque actualmente estoy más interesado en el desarrollo backend tengo las capacidades para desenvolverme como desarrollador frontend ; no me considero experto pero si un nativo tecnológico y aficionado por
                         las nuevas tendencias.
