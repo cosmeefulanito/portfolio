@@ -25,19 +25,13 @@ const FormProvider = ({children}) => {
         setError('')
         enviarFormulario()
     }
-
-
-    // useEffect(() => {
-    //     console.log("cargando: ", cargando)
-    // }, [cargando])
+    
 
     const enviarFormulario = async () => {
         try {
             setCargando(true)
-            const url = 'http://localhost:5000/api/contact'
+            const url = 'https://formulario-nodemailer-production.up.railway.app/api/contact'
             const response = await axios.post(url, campos)
-            // console.log("*** ", response)
-            // console.log(response.data)
             if (response.status === 200) {
                 setError('')
                 setResultado(response.status)                
