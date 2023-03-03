@@ -30,7 +30,7 @@ const FormProvider = ({children}) => {
     const enviarFormulario = async () => {
         try {
             setCargando(true)
-            const url = 'https://formulario-nodemailer-production.up.railway.app/api/contact'
+            const url = 'http://localhost:5000/api/contact'
             const response = await axios.post(url, campos)
             if (response.status === 200) {
                 setError('')
