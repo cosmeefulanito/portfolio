@@ -27,7 +27,7 @@ const Portfolio = () => {
                         <h1 className="card-zoom-text">Orders-app</h1>
                         <div className='card-zoom-btn'>
                             <button className='btn-card'>
-                                <a href="https://orders-app-production.up.railway.app/" target="_blank">Live project</a>
+                                <a href="https://orderapp.fly.dev/" target="_blank">Live project</a>
                             </button>
                             <button className='btn-card'>
                                 <a href="https://github.com/cosmeefulanito/orders-app" target="_blank">Code view</a>

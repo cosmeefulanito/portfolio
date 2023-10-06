@@ -16,9 +16,6 @@ const Contact = () => {
                 <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                     {/* redes sociales */}
                     <div className='contact-media grid grid-rows-2 items-center h-fit p-6'>
-                        <div className=' text-white'>
-                            <p>Si quieres puedes contactarme por mis redes sociales o también tienes un formulario de contacto que puedes llenar y te estaré respondiendo a la brevedad!</p>
-                        </div>
                         <div className=''>
                             <button className='hover:bg-violet-300 rounded-full p-3 transition-colors ease-in'>
                                 <a href="https://github.com/cosmeefulanito" target="_blank">

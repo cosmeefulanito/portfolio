@@ -10,7 +10,7 @@ const Navbar = () => {
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
                             <a href="#">
-                                <h2 className="animate-pulse text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{`{ Andrés }`}</h2>
+                                {/* <h2 className="animate-pulse text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{`{ Andrés }`}</h2> */}
                             </a>
                             <div className="md:hidden">
                                 <button className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border" onClick={() => setNavbar(!navbar)}>

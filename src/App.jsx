@@ -20,7 +20,6 @@ function App() {
       <FormProvider>
         <Contact />
       </FormProvider>
-
       <Footer />
     </>
   )
